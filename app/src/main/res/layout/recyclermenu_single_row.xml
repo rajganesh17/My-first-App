@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llMenu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:weightSum="6">
+
+
+    <ImageView
+        android:layout_weight="1.5"
+        android:id="@+id/imgCoffeeImage"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+      android:layout_margin="10dp"
+        android:padding="5dp"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_weight="3.3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtCoffeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name of the Coffee"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+
+
+        <TextView
+            android:id="@+id/txtCoffeePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Rs.199"
+            android:padding="8dp"
+            android:layout_below="@id/txtCoffeeName"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txtCoffeeRating"
+        android:layout_weight="1.2"
+        android:layout_width="0dp"
+        android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_ratings"
+        android:layout_marginTop="53dp"
+        android:textColor="#ffca28"
+        android:text="4.5"
+        android:drawablePadding="4dp"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</LinearLayout>

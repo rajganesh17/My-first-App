@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Sign In</string>
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="already_registered">Already Registered</string>
+    <string name="moblie_number">Moblie Number</string>
+    <string name="coffee">coffee</string>
+    <string name="drinks">Drinks</string>
+    <string name="cold_coffee">Cold Coffee</string>
+    <string name="rs_150">Rs:150</string>
+    <string name="_1">1</string>
+    <string name="todo">TODO</string>
+    <string name="hot_coffee">Hot Coffee</string>
+    <string name="_2">2</string>
+    <string name="coffee_house">Coffee House</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_fragment">Menu Fragment</string>
+</resources>
+
